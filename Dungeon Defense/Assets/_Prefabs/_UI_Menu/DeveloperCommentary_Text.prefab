@@ -72,8 +72,8 @@ MonoBehaviour:
     page will most likely contain a volume meter and mute buttons for sound effects,
     UI, and music.]'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a9447cb284dcd644da6acb1b0e25534c, type: 2}
+  m_sharedMaterial: {fileID: -6967571149133879504, guid: a9447cb284dcd644da6acb1b0e25534c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

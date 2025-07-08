@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Interactable
   - Wall
+  - TargetChest
+  - Floor
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -15,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Path
+  - Player
   - 
   - 
   - 

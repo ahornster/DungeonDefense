@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5982425030167647719}
+  - component: {fileID: 1350950927027586198}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Wall
@@ -32,6 +33,27 @@ Transform:
   - {fileID: 4087972895437509180}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1350950927027586198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682602173811487155}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 4, z: 1.5}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!1001 &4553663471363241431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80,6 +102,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d15726441fbe0942a204c884f115d95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76f05b3602ed03d469c565f0a88438d4, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 6d15726441fbe0942a204c884f115d95, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c1269453827b7c4a83fdf40a12abc8b, type: 2}
     - target: {fileID: 919132149155446097, guid: 6d15726441fbe0942a204c884f115d95, type: 3}
       propertyPath: m_Name
       value: wall
