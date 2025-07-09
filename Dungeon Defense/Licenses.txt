@@ -1,0 +1,66 @@
+Asset License List
+Game: Dungeon Defense
+Studio: Leaf-Blade Games
+Developer: SigurdLB aka Austin H.
+
+///~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~///
+
+Link: https://assetquest.itch.io/free-low-poly-halloween-kit
+Date: 07/08/2025
+Asset: Free Low-Poly Halloween Kit
+Author: AssetQuest
+License: (Creative Commons Zero, CC0)
+
+Link: https://kaylousberg.itch.io/kaykit-dungeon
+Date: 07/08/2025
+Asset: Kaykit - Dungeon Pack
+Author: Kay Lousberg
+License: (Creative Commons Zero, CC0)
+
+Link: https://kaylousberg.itch.io/kaykit-spooktober
+Date: 07/08/2025
+Asset: Kaykit - Spooktober Seasonal Pack
+Author: Kay Lousberg
+License: (Creative Commons Zero, CC0)
+
+Link: https://kaylousberg.itch.io/kaykit-animations
+Date: 07/08/2025
+Asset: Kaykit - Character Animations
+Author: Kay Lousberg
+License: (Creative Commons Zero, CC0)
+
+Link: https://shikashipx.itch.io/shikashis-fantasy-icons-pack
+Date: 07/08/2025
+Asset: Shikashi's Fantasy Icons Pack
+Author: Shikashipx
+License: (Creative Commons Attribution, v4.0 International)
+
+Link: https://kenney.nl/assets/ui-pack-adventure
+Date: 07/08/2025
+Asset: UI Pack - Adventure
+Author: KENNEY
+License: (Creative Commons Zero, CC0)
+
+Link: https://kenney.nl/assets/ui-pack-rpg-expansion
+Date: 07/08/2025
+Asset: UI Pack (RPG Expansion)
+Author: KENNEY
+License: (Creative Commons Zero, CC0)
+
+Link: https://www.1001fonts.com/berylium-font.html
+Date: 07/08/2025
+Asset: Berylium font
+Author: 1001 Fonts
+License: Public Domain
+
+Link: https://www.1001fonts.com/squealer-font.html
+Date: 07/08/2025
+Asset: Squealer Font Family
+Author: 1001 Fonts
+License: Public Domain
+
+Link: https://opengameart.org/content/cobblestone-wall-texture
+Date: 07/08/2025
+Asset: Cobblestone Wall Texture
+Author: Emerald Eel Entertainment
+License: (Creative Commons Zero, CC0 / Public Domain)

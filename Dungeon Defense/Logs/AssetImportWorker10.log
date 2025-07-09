@@ -1,0 +1,1433 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 65470 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/Austin/Documents/GitHub/DungeonDefense/Dungeon Defense
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+65271
+Successfully changed project path to: C:/Users/Austin/Documents/GitHub/DungeonDefense/Dungeon Defense
+C:/Users/Austin/Documents/GitHub/DungeonDefense/Dungeon Defense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27676]  Target information:
+
+Player connection [27676]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 3529737254 [EditorId] 3529737254 [Version] 1048832 [Id] WindowsEditor(7,Aroshia-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27676]  * "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 3529737254 [EditorId] 3529737254 [Version] 1048832 [Id] WindowsEditor(7,Aroshia-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27676]  * "[IP] 192.168.10.1 [Port] 0 [Flags] 2 [Guid] 3529737254 [EditorId] 3529737254 [Version] 1048832 [Id] WindowsEditor(7,Aroshia-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27676]  * "[IP] 169.254.188.30 [Port] 0 [Flags] 2 [Guid] 3529737254 [EditorId] 3529737254 [Version] 1048832 [Id] WindowsEditor(7,Aroshia-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27676] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27676] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 17.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Austin/Documents/GitHub/DungeonDefense/Dungeon Defense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016797 seconds.
+- Loaded All Assemblies, in  0.357 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 605ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.926 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1605ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 10.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (103.7 KB). Loaded Objects now: 4939.
+Memory consumption went from 170.1 MB to 170.0 MB.
+Total: 5.134100 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.428000 ms MarkObjects: 4.289400 ms  DeleteObjects: 0.088200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 454340.100146 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/divider_edges.png
+  artifactKey: Guid(c4e3c32e80def694d8cf58da6110e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/divider_edges.png using Guid(c4e3c32e80def694d8cf58da6110e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c1ed0c08feb26d6c7716515206c1ddf') in 0.088095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.174088 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/hexagon_damaged_brown_dark.png
+  artifactKey: Guid(659031e84a42f4d4ca837bb96b93d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/hexagon_damaged_brown_dark.png using Guid(659031e84a42f4d4ca837bb96b93d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26a6369460b1546c003a64b72e564559') in 0.008389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/hexagon_grey_dark.png
+  artifactKey: Guid(657560374a9394b43be9acf9bdd6a281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/hexagon_grey_dark.png using Guid(657560374a9394b43be9acf9bdd6a281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'abd7c7065586a4a1f27d20f8e8b36270') in 0.009290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/hexagon_grey_red.png
+  artifactKey: Guid(5d3ff57d37ad2044cbc2cb48a8ad1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/hexagon_grey_red.png using Guid(5d3ff57d37ad2044cbc2cb48a8ad1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e232cffe9b69874245d57c74ca590237') in 0.010810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Double/icon_arrow_down_light.png
+  artifactKey: Guid(8b7b181f047d93e40a620537af59d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Double/icon_arrow_down_light.png using Guid(8b7b181f047d93e40a620537af59d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '074a02c51a30a075ecdc47845132db49') in 0.009902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017376 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_arrow_up_light.png
+  artifactKey: Guid(ff5ae5793d178a541a93818d02f70646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_arrow_up_light.png using Guid(ff5ae5793d178a541a93818d02f70646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ceea8558787cfdad0af615b883720a3') in 0.007696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/icon_checkmark.png
+  artifactKey: Guid(ea4be1681ad9df4478cab8efb7dd254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/icon_checkmark.png using Guid(ea4be1681ad9df4478cab8efb7dd254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8398d9f2246f663f5ba213f94558f7ed') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/icon_checkmark.png
+  artifactKey: Guid(671338547954a3341b6fea0628bed4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/icon_checkmark.png using Guid(671338547954a3341b6fea0628bed4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ba485a532e8939f902365cc0365aebe8') in 0.007491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_checkmark.png
+  artifactKey: Guid(10d3e0c7e4f89c7428b32a3209ec163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_checkmark.png using Guid(10d3e0c7e4f89c7428b32a3209ec163c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d077b803906610d1b9aa957d117069d') in 0.010046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042630 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_circle.png
+  artifactKey: Guid(4d3424d8c74ab73448ecf62bb03ec577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_circle.png using Guid(4d3424d8c74ab73448ecf62bb03ec577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c2ce897dd8db1ba2fe1fad17d986775') in 0.007848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_cross.png
+  artifactKey: Guid(ff1cdfc821f801b4197611eeaf1d0fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_cross.png using Guid(ff1cdfc821f801b4197611eeaf1d0fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c76637227676464ed253ced169da82fa') in 0.010088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/icon_outline_checkmark.png
+  artifactKey: Guid(0ca7abaeefaaa39499cf29e122955610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/icon_outline_checkmark.png using Guid(0ca7abaeefaaa39499cf29e122955610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec4dc383972d36c050f465f3c5cd4a40') in 0.008653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_cross.png
+  artifactKey: Guid(c34b223e6b0e43942a89e160f13f00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_cross.png using Guid(c34b223e6b0e43942a89e160f13f00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '344d0447f1cfb8d5002fc646555b6ff1') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017812 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/icon_outline_checkmark.png
+  artifactKey: Guid(5cd611ce57d08f84e9d8386849c9e4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/icon_outline_checkmark.png using Guid(5cd611ce57d08f84e9d8386849c9e4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cedbd9d3aa0c2666f764daca3bfc05d1') in 0.009308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Grey/Default/icon_outline_circle.png
+  artifactKey: Guid(461138dab5ee02741875a0f529974916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Grey/Default/icon_outline_circle.png using Guid(461138dab5ee02741875a0f529974916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c16e1bede54f3193368e5781a068c4a5') in 0.010793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_outline_checkmark.png
+  artifactKey: Guid(fcf3d3089b5789a4aa585fc3fd436e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_outline_checkmark.png using Guid(fcf3d3089b5789a4aa585fc3fd436e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c3a8611918a28989bf2a9ce5ad9b62c') in 0.008174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/icon_outline_circle.png
+  artifactKey: Guid(1946cf161fc02da4fa52eb88f48a12cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/icon_outline_circle.png using Guid(1946cf161fc02da4fa52eb88f48a12cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ebceda106e1f697c8a2b937928dd429c') in 0.008101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/icon_outline_checkmark.png
+  artifactKey: Guid(3494efd426ae478498c482cb7234127d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/icon_outline_checkmark.png using Guid(3494efd426ae478498c482cb7234127d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9855b391e21f22ae10cbf1b30f203803') in 0.007931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.678807 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_outline_cross.png
+  artifactKey: Guid(71b0dea34b64ed14daaa862a82d9d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/icon_outline_cross.png using Guid(71b0dea34b64ed14daaa862a82d9d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60154ddf2cb922877097db290191431a') in 0.007756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/icon_outline_cross.png
+  artifactKey: Guid(6594508c2b25fd0469ef219f0a6f8a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/icon_outline_cross.png using Guid(6594508c2b25fd0469ef219f0a6f8a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72eb2ec6691b6a342fcce44ca2955ad5') in 0.007725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Double/icon_outline_square.png
+  artifactKey: Guid(00be19e239eef4043b201b4194dfec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Double/icon_outline_square.png using Guid(00be19e239eef4043b201b4194dfec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '556584abec37ccb286cadc0c6642ee0c') in 0.009402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Double/icon_outline_cross.png
+  artifactKey: Guid(4f20266b612b57b478d76d1287695534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Double/icon_outline_cross.png using Guid(4f20266b612b57b478d76d1287695534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f19786e154819bca8f7b64999c08733') in 0.008488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041746 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/icon_outline_square.png
+  artifactKey: Guid(9ee90994266e03542badc7e8545038c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/icon_outline_square.png using Guid(9ee90994266e03542badc7e8545038c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43c3545786e0b480016b78b8c4af053c') in 0.006638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_repeat_dark.png
+  artifactKey: Guid(85438335ac834a842841b471e127b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_repeat_dark.png using Guid(85438335ac834a842841b471e127b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '674e9209438124659cefd9934969e0a3') in 0.009020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_repeat_light.png
+  artifactKey: Guid(52843ab43a01b9449a8348e4523cf6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/icon_repeat_light.png using Guid(52843ab43a01b9449a8348e4523cf6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b368f263578201d9f6a9437e8742f297') in 0.010448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/icon_square.png
+  artifactKey: Guid(c50793e89d2360a4a98d0356ed241747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/icon_square.png using Guid(c50793e89d2360a4a98d0356ed241747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c00d79cbdbba4e084da048f139545f0') in 0.007906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020420 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/icon_square.png
+  artifactKey: Guid(755bcb09a913846458c8b67596b1a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/icon_square.png using Guid(755bcb09a913846458c8b67596b1a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc7e517cbee283eeec096f51c359f459') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_square.png
+  artifactKey: Guid(18b48399276b58e40a2b96323c42b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/icon_square.png using Guid(18b48399276b58e40a2b96323c42b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1b8c4acee3ca9d7cefa81aa951ec17ca') in 0.010011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.637553 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/input_outline_square.png
+  artifactKey: Guid(bc226ab5b82d86e41a391129f24c73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Extra/Default/input_outline_square.png using Guid(bc226ab5b82d86e41a391129f24c73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eac288e80e59c6c105f9eaf9bda67a3d') in 0.006764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_b.png
+  artifactKey: Guid(48eabd23d4fa3d64e84d620c92c7343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_b.png using Guid(48eabd23d4fa3d64e84d620c92c7343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9433c2d5d947f8402505850023ed3b04') in 0.010191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_a.png
+  artifactKey: Guid(e1126b0e2fd40f440a81168531c28d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_a.png using Guid(e1126b0e2fd40f440a81168531c28d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c30ebcaefcf0a229f4a47aac37121219') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024144 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_c.png
+  artifactKey: Guid(bcd39fa5a7bf867438585ef95d87acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_arrow_c.png using Guid(bcd39fa5a7bf867438585ef95d87acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f71d8ee0280d88a636ea2dd6025b9607') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_future_w.png
+  artifactKey: Guid(2cca92da84bb862459b13c25fde64f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_future_w.png using Guid(2cca92da84bb862459b13c25fde64f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a53c81d6f45a84372b77fb63eefeaabf') in 0.012316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_future_s.png
+  artifactKey: Guid(4b5d6a4b5afd50641a6cd22e9fee6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_future_s.png using Guid(4b5d6a4b5afd50641a6cd22e9fee6962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed92c554c03e48bfecb08ec1e21e620f') in 0.007544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_toon_n.png
+  artifactKey: Guid(2b783c7d57315dd46b0130463eace539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_toon_n.png using Guid(2b783c7d57315dd46b0130463eace539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '021e75bc3380319ba718a70f42b04115') in 0.009694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020567 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_compass_toon_w.png
+  artifactKey: Guid(129564c18896bc24680f50b4e1820946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_compass_toon_w.png using Guid(129564c18896bc24680f50b4e1820946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8cbf0691467af28af0e65e32d818fb85') in 0.007796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_icon_jewel_white.png
+  artifactKey: Guid(a5a64bc6393afa446b4997157acaaf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_icon_jewel_white.png using Guid(a5a64bc6393afa446b4997157acaaf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34991bb741e17841e126d6943c9708db') in 0.007717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_icon_jewel_yellow.png
+  artifactKey: Guid(4ffea9cd2814718488abc2baff7d7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_icon_jewel_yellow.png using Guid(4ffea9cd2814718488abc2baff7d7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f656226793c4fdce246748374e005518') in 0.010644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_icon_star_red.png
+  artifactKey: Guid(939fda169befb7045b70db4ae91b9d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_icon_star_red.png using Guid(939fda169befb7045b70db4ae91b9d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cbd0e53f181bbde330ff2b7650526a9e') in 0.010628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.920205 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_icon_star_yellow.png
+  artifactKey: Guid(23669b9c4bb7d774cb8ed5d6d01163db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_icon_star_yellow.png using Guid(23669b9c4bb7d774cb8ed5d6d01163db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '159223197bfe44949f7325d5bb0115aa') in 0.007668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_ring_white.png
+  artifactKey: Guid(74788e2ea8c068c44a441903d40ac5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/minimap_ring_white.png using Guid(74788e2ea8c068c44a441903d40ac5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94e7ea9171225440540177f4499dd71d') in 0.012957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_ring_brown.png
+  artifactKey: Guid(c172c938bc5c5d3428e25abd0530b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/minimap_ring_brown.png using Guid(c172c938bc5c5d3428e25abd0530b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c832dcaa71d095ec774bb23340d59afb') in 0.010168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047051 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_border_brown_detail.png
+  artifactKey: Guid(bc8a53623c31de443b5379ccd41b716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_border_brown_detail.png using Guid(bc8a53623c31de443b5379ccd41b716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22f81934bfc797b595670bdd5ce97f32') in 0.008186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_border_grey_detail.png
+  artifactKey: Guid(c25169da98fb040458bb381e2e01292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_border_grey_detail.png using Guid(c25169da98fb040458bb381e2e01292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c02570f806820eb9933e0d13749b67cf') in 0.013756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_border_grey_detail.png
+  artifactKey: Guid(f230c39df638d6f4b8db9c2ba4784dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_border_grey_detail.png using Guid(f230c39df638d6f4b8db9c2ba4784dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a97b4a9d0afe1548ce68fc055f0bdfc') in 0.007832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002420 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_brown_arrows_dark_detail.png
+  artifactKey: Guid(7550874c45e99c346ab099ca1e2fa393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_brown_arrows_dark_detail.png using Guid(7550874c45e99c346ab099ca1e2fa393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2916c67d27e294dd757ece2c5e5763c0') in 0.008727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_brown_damaged_dark.png
+  artifactKey: Guid(dacaa1988ba7067468cf42e577c82a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_brown_damaged_dark.png using Guid(dacaa1988ba7067468cf42e577c82a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd0a9b7c0abe198c835a09d7122dcac04') in 0.010153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_dark_corners_a.png
+  artifactKey: Guid(e7113e2a63473834996ad5e2b29bb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_dark_corners_a.png using Guid(e7113e2a63473834996ad5e2b29bb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f37d582de5ba48253a88374020a80d1') in 0.009134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_corners_b.png
+  artifactKey: Guid(62a210ed042efaf42a1c0d4a44164d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_corners_b.png using Guid(62a210ed042efaf42a1c0d4a44164d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc1e830d83436e4a35aca8f5f36e109e') in 0.010058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_corners_a.png
+  artifactKey: Guid(edad588c008f18946880966eabe53cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_brown_corners_a.png using Guid(edad588c008f18946880966eabe53cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59466ead8db6c2da58d78a02bef4f8ca') in 0.008226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.557150 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey.png
+  artifactKey: Guid(7d28fca5663b96c48ab8e7249bb7512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey.png using Guid(7d28fca5663b96c48ab8e7249bb7512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e95b4c3db740bfad1b1d0745d7b19b32') in 0.009106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_a.png
+  artifactKey: Guid(a4ff6dbd59c4c464cac4f2024d28a418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_a.png using Guid(a4ff6dbd59c4c464cac4f2024d28a418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7542eda1faf80156a4de8301c9e0b2c0') in 0.015782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_b.png
+  artifactKey: Guid(6083d4ef7fde57f4ebf34d4ca72ccae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_b.png using Guid(6083d4ef7fde57f4ebf34d4ca72ccae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0098011dcb83feb1d18d3261ea5cef29') in 0.025846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_dark.png
+  artifactKey: Guid(2d6bdbe6638af4746a563be5ae051601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_dark.png using Guid(2d6bdbe6638af4746a563be5ae051601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '444f9a6ddae8555f9e033bee22977114') in 0.020392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011704 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey_dark.png
+  artifactKey: Guid(71a501fb670605142bccf3c7d22ada3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey_dark.png using Guid(71a501fb670605142bccf3c7d22ada3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54533effe3fb99878a7fc9591b32e800') in 0.007516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grid_paper.png
+  artifactKey: Guid(a282b8851b6565040a47bcd24cc22921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/panel_grid_paper.png using Guid(a282b8851b6565040a47bcd24cc22921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '85e30f5b56cb8441d9b4af567fa0b569') in 0.013535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey_green.png
+  artifactKey: Guid(5ddbe06d26e9eb342a0e628773ea60db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/panel_grey_green.png using Guid(5ddbe06d26e9eb342a0e628773ea60db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9fff97afb3281608a35071604e663645') in 0.009146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.676298 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/pattern_diagonal_grey_small.png
+  artifactKey: Guid(239e767ce35fe1649aaea2dff6c0a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/pattern_diagonal_grey_small.png using Guid(239e767ce35fe1649aaea2dff6c0a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '103d1aae1d7e1aeaacf5366a93fb871d') in 0.008513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/pattern_diagonal_transparent_small.png
+  artifactKey: Guid(c3d7d90cedfa37b4aa0b0f7a2c33cb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/pattern_diagonal_transparent_small.png using Guid(c3d7d90cedfa37b4aa0b0f7a2c33cb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '633959e55dbd7c89a47452b2012065f0') in 0.009475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_blue.png
+  artifactKey: Guid(20efe381095e18e4399faf7af05dd0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_blue.png using Guid(20efe381095e18e4399faf7af05dd0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '896a93993710f5e592b02e73477343db') in 0.010950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/pattern_grid_paper.png
+  artifactKey: Guid(08c7c59926da5ad428879a50b9057644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/pattern_grid_paper.png using Guid(08c7c59926da5ad428879a50b9057644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c6f6559aa55e201d9585e43bb948250') in 0.010030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.096549 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_blue_border.png
+  artifactKey: Guid(82e6ddd257a16be438be041fe7528d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_blue_border.png using Guid(82e6ddd257a16be438be041fe7528d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c878445d966b437aa34b6a8228b6632') in 0.010160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_green_small.png
+  artifactKey: Guid(91e9eb5758119714099661c52a4e3270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_green_small.png using Guid(91e9eb5758119714099661c52a4e3270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f02a1405b71f4d572dccffe16fe73a11') in 0.015369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_blue_small.png
+  artifactKey: Guid(dbe24a6de93410e47b20e95a78dcfe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_blue_small.png using Guid(dbe24a6de93410e47b20e95a78dcfe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1390226a970f1dad03f7b735cc3e71c0') in 0.009465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_green_border.png
+  artifactKey: Guid(02cf55c1bb766664eac2d34df743c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_green_border.png using Guid(02cf55c1bb766664eac2d34df743c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a7111fd4d209f25d704d01a3cfddeb9') in 0.014129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_green.png
+  artifactKey: Guid(34313171647e5814197823f4e259374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_green.png using Guid(34313171647e5814197823f4e259374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '435c14d36dcef965dc0835c21b73b2be') in 0.008686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.166259 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_red_small.png
+  artifactKey: Guid(3c740a7ca7356cc4490032522f896049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_red_small.png using Guid(3c740a7ca7356cc4490032522f896049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01f7dad617e974452994f8937ae3b18c') in 0.008301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_transparent.png
+  artifactKey: Guid(b07192387f4e11445ba4b9ec68c232a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_transparent.png using Guid(b07192387f4e11445ba4b9ec68c232a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e083fe5b73ce6e958d15fde0ff5ee265') in 0.006542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_white_small_border.png
+  artifactKey: Guid(f46709f50d245d44b854a1436dcd647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/progress_white_small_border.png using Guid(f46709f50d245d44b854a1436dcd647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8da324b155bc7bb48003acb32df79a5') in 0.009958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_white_border.png
+  artifactKey: Guid(7de31cd90b56e454792023fb1300dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/progress_white_border.png using Guid(7de31cd90b56e454792023fb1300dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7aead92cfcb5f026e30ac1a9c2bf7ba') in 0.009416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.148470 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_brown_dark.png
+  artifactKey: Guid(ff8692978a1d0074298e02cb173900f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_brown_dark.png using Guid(ff8692978a1d0074298e02cb173900f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '417a8ca50365db1c591aedac62da8ad7') in 0.007924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/round_grey.png
+  artifactKey: Guid(2d4a4fb8968217249b9fea77cb4f810c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/round_grey.png using Guid(2d4a4fb8968217249b9fea77cb4f810c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4cc549247b7d756c53ec6193428e84ba') in 0.011691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_grey_dark.png
+  artifactKey: Guid(f5fe9fbb4c32e7a44a9d835a921d11a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_grey_dark.png using Guid(f5fe9fbb4c32e7a44a9d835a921d11a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08ec2573cff4a13291d01056e9d73b66') in 0.007795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.298982 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_grey_detailed_red.png
+  artifactKey: Guid(21bba1167e99e0141849d4e605984f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/round_grey_detailed_red.png using Guid(21bba1167e99e0141849d4e605984f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f46eff318468fc07241e3bf7cd5ec85') in 0.006932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_brown_small.png
+  artifactKey: Guid(cd399a6ae14811345a4ecb83b7d29aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_brown_small.png using Guid(cd399a6ae14811345a4ecb83b7d29aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd2e2f045fd3d563514fcf5abfc6e9ac') in 0.010954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/scrollbar_brown.png
+  artifactKey: Guid(723a41ef21d65c440a75234439fa84a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/scrollbar_brown.png using Guid(723a41ef21d65c440a75234439fa84a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '156f9674a148151eae8e05b77ed5c937') in 0.012695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_future_grey.png
+  artifactKey: Guid(9008bc240e52219499be3b7275668dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_future_grey.png using Guid(9008bc240e52219499be3b7275668dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b09d7e994d75018bb0abbc954173334') in 0.008438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.068949 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/scrollbar_grey.png
+  artifactKey: Guid(fb16a7f0d04f2734c98f263b421e1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Double/scrollbar_grey.png using Guid(fb16a7f0d04f2734c98f263b421e1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a6c60c90c055b60cdd873e92c561407e') in 0.008013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_grey_small.png
+  artifactKey: Guid(c306299004882864fa9694fff6380282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_grey_small.png using Guid(c306299004882864fa9694fff6380282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b797d04a83b66d7a792454c5317b8d70') in 0.009083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_transparent_small.png
+  artifactKey: Guid(643d9de657acfae4592bd743fc4259cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack-adventure/PNG/Default/scrollbar_transparent_small.png using Guid(643d9de657acfae4592bd743fc4259cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26e386ceb6b3168dff41565275dbd342') in 0.008584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035088 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_hangle.png
+  artifactKey: Guid(b24efd228068330428940331738d9894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_hangle.png using Guid(b24efd228068330428940331738d9894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c71e9b4f7b3ece660f4dad2c35b2d03') in 0.006937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_hangle.png
+  artifactKey: Guid(306d554772dbcaf47a84b76c74f92246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_hangle.png using Guid(306d554772dbcaf47a84b76c74f92246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d850cf9887d88b3990092f6bae35c82') in 0.008322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color.png
+  artifactKey: Guid(5e88f0526d9321a49942857d96f4d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color.png using Guid(5e88f0526d9321a49942857d96f4d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2240f661cab68d68da956a9a5fd938c2') in 0.008561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_hangle.png
+  artifactKey: Guid(cf3e057bf8410994bba80ee0e3a533ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_hangle.png using Guid(cf3e057bf8410994bba80ee0e3a533ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5ada3c9b4425a4da4001c6c36155666') in 0.007745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_hangle.png
+  artifactKey: Guid(3280324809a0aac479a1e365acf0594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_hangle.png using Guid(3280324809a0aac479a1e365acf0594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '151e594ac814a524a72600e8ebcc9558') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.898680 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_horizontal_color_section.png
+  artifactKey: Guid(b88287f535d15bb4a8170fe151de26a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_horizontal_color_section.png using Guid(b88287f535d15bb4a8170fe151de26a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db8324da69f8c1b7033eda0d19044231') in 0.007081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_horizontal_color_section.png
+  artifactKey: Guid(648e35111c799bc4694c5adb6d97e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_horizontal_color_section.png using Guid(648e35111c799bc4694c5adb6d97e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '594b9fc2877efaf762f8256083e1a4d7') in 0.008106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/slide_horizontal_color_section.png
+  artifactKey: Guid(009b843b94fd3e340836ea0c255046af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/slide_horizontal_color_section.png using Guid(009b843b94fd3e340836ea0c255046af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8531a50ceba696bd8a4a1a4936dadc3d') in 0.008748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_horizontal_color_section.png
+  artifactKey: Guid(e183ec6f6085b0448979c45b6f594460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_horizontal_color_section.png using Guid(e183ec6f6085b0448979c45b6f594460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b644e2e4b2ae19869f59ea3d8ac0567f') in 0.008606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color_section_wide.png
+  artifactKey: Guid(5f59ec3d83fe18d4d820bf8d56ddece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_horizontal_color_section_wide.png using Guid(5f59ec3d83fe18d4d820bf8d56ddece6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2fb7eaa38467e07fb132a55c067be1c') in 0.009686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045390 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_color_section_wide.png
+  artifactKey: Guid(52d8a508cb1ae6242a567de9cecd1efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_color_section_wide.png using Guid(52d8a508cb1ae6242a567de9cecd1efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30bbd94da290572aa48b0ff84a02da4c') in 0.008232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_horizontal_grey.png
+  artifactKey: Guid(3e799f2a6815fa849ab95f7782f74bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_horizontal_grey.png using Guid(3e799f2a6815fa849ab95f7782f74bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64026c43848d9c704b966d9e929d6355') in 0.011131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_grey.png
+  artifactKey: Guid(7239972e752baed4eb1a56f46adbca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_grey.png using Guid(7239972e752baed4eb1a56f46adbca54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21cde394160cf15c156c932416d4a0d5') in 0.009996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey.png
+  artifactKey: Guid(510ca60ed25b12942a413a8457bb3557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey.png using Guid(510ca60ed25b12942a413a8457bb3557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64bda744c5f508d91b42f9119d65fe68') in 0.009067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.865328 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey_section.png
+  artifactKey: Guid(92ee0aac39656fd4a99b60aee842d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey_section.png using Guid(92ee0aac39656fd4a99b60aee842d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e012f4e00f631d3ccead30fdc3dc3187') in 0.007464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_horizontal_grey_section_wide.png
+  artifactKey: Guid(e4299cda9c08e3d429c9d4d81c1bd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Double/slide_horizontal_grey_section_wide.png using Guid(e4299cda9c08e3d429c9d4d81c1bd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4fe7a1895b11319d7de4e9fa7e219628') in 0.008751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey_section_wide.png
+  artifactKey: Guid(a6bc2bb678efae44083b8ea3522af7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_horizontal_grey_section_wide.png using Guid(a6bc2bb678efae44083b8ea3522af7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f8ef3ac0cd763d0260b090d64d59d0f') in 0.009229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/slide_horizontal_grey_section_wide.png
+  artifactKey: Guid(2bb4b3d0008f17d4f8164a779f4e465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/slide_horizontal_grey_section_wide.png using Guid(2bb4b3d0008f17d4f8164a779f4e465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09b909ade2cdbda0baf07583ef050476') in 0.009761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_grey_section.png
+  artifactKey: Guid(a055b3ee61fe42e48b4f727adfceebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_horizontal_grey_section.png using Guid(a055b3ee61fe42e48b4f727adfceebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a24dd2a79accb38229bad4f525cf7397') in 0.007652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.083226 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_color.png
+  artifactKey: Guid(5c454bee1cc7a904d80356b68ca26444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_color.png using Guid(5c454bee1cc7a904d80356b68ca26444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd7ed4ef8f72799d2abc7fc0b026c71b9') in 0.008009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_color_section.png
+  artifactKey: Guid(88978d9d210bc9d45abac178c18cd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_color_section.png using Guid(88978d9d210bc9d45abac178c18cd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19c5e57378bc20503cee632d0021ac42') in 0.008796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_vertical_color_section.png
+  artifactKey: Guid(0138cfb1ebf63c14ea55934a5c18bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_vertical_color_section.png using Guid(0138cfb1ebf63c14ea55934a5c18bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '86d34b5662cc55d17c25e337bffcc7ed') in 0.011450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_vertical_color_section.png
+  artifactKey: Guid(416194702cb1fca42a42db9a559d4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_vertical_color_section.png using Guid(416194702cb1fca42a42db9a559d4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '37e1e45dce04d6ce49b07ed5e9ebfb86') in 0.009150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038658 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_vertical_color_section_wide.png
+  artifactKey: Guid(8f71a1da710278d4eaf3e79eb40430b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/slide_vertical_color_section_wide.png using Guid(8f71a1da710278d4eaf3e79eb40430b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd47047c96a04b2e54bb9b6f5881d4450') in 0.006750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey.png
+  artifactKey: Guid(49f3f29ed585014478a883d0397d35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey.png using Guid(49f3f29ed585014478a883d0397d35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3b3faa2e48e549a0be2054700de497d') in 0.009232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_vertical_grey.png
+  artifactKey: Guid(f28e56293e0ac364ba07beefea155c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_vertical_grey.png using Guid(f28e56293e0ac364ba07beefea155c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc323b2bd5fc713a6faf800d3c60e75c') in 0.011088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_vertical_grey.png
+  artifactKey: Guid(708e08d8a5231d14eae75293d34c65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Default/slide_vertical_grey.png using Guid(708e08d8a5231d14eae75293d34c65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00a41a9b0b47fcc0229b431da10daf98') in 0.015625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.385672 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_vertical_grey_section.png
+  artifactKey: Guid(50af5811aa3f90549b92ac2c0513024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/slide_vertical_grey_section.png using Guid(50af5811aa3f90549b92ac2c0513024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62de5bc10c76ba69b153e6a819833a78') in 0.008775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey_section_wide.png
+  artifactKey: Guid(6b363b8c8dede4241a494f32db09ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey_section_wide.png using Guid(6b363b8c8dede4241a494f32db09ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a53611690cc26634a92dd3eced233a2e') in 0.010894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey_section.png
+  artifactKey: Guid(199322108310c5e4da12005a1494814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/slide_vertical_grey_section.png using Guid(199322108310c5e4da12005a1494814c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b1daf698f1b956bf97e41463ce79b15') in 0.010785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_vertical_grey_section.png
+  artifactKey: Guid(9d3ea46a2a8274144a2670913d620190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/slide_vertical_grey_section.png using Guid(9d3ea46a2a8274144a2670913d620190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3fab484567c57c7ff8d30ebc19415df') in 0.010630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009280 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_grey_section_wide.png
+  artifactKey: Guid(a213f95b410177244b9496d1a1ff1bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Double/slide_vertical_grey_section_wide.png using Guid(a213f95b410177244b9496d1a1ff1bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c56db921af00bdc866254bf32c421ee') in 0.007640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/star.png
+  artifactKey: Guid(2b62d063c5283ad488eb750a5baac51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Blue/Double/star.png using Guid(2b62d063c5283ad488eb750a5baac51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8effbbdc4da44627a8a6247bf96a7b57') in 0.011903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010493 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/star.png
+  artifactKey: Guid(17b09149219ed7547822616a04edd20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Default/star.png using Guid(17b09149219ed7547822616a04edd20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6c56aea8d29320275bb729c472106c1') in 0.007937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Green/Default/star_outline.png
+  artifactKey: Guid(3430a47d71b0633468c8324ff9fb93b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Green/Default/star_outline.png using Guid(3430a47d71b0633468c8324ff9fb93b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '107ce2e57b1ce954aff056e15ae165ac') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/star_outline.png
+  artifactKey: Guid(a72e5bc1c0be16e40bd582c194e9a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/star_outline.png using Guid(a72e5bc1c0be16e40bd582c194e9a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '853fc50ad4ebab122920fdcb4e104016') in 0.010090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/star_outline.png
+  artifactKey: Guid(2da68b102ca999745b135e7f2d50703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Grey/Double/star_outline.png using Guid(2da68b102ca999745b135e7f2d50703a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '04a5c0cbbe2bbcf5b95db58a41977779') in 0.008776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.329604 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Red/Default/star_outline_depth.png
+  artifactKey: Guid(336d1be252fd9c74eaf6e8db877a0a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Red/Default/star_outline_depth.png using Guid(336d1be252fd9c74eaf6e8db877a0a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '824af1c646492461ead26cbba54d3233') in 0.007515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/star_outline_depth.png
+  artifactKey: Guid(edd6ab5c0c515b44eb331d92e996f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Assets/kenney_ui-pack/PNG/Yellow/Double/star_outline_depth.png using Guid(edd6ab5c0c515b44eb331d92e996f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '549657807d0e2e36892a7c5f4ec17c2f') in 0.008284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1066.733800 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad2668c9c51cef29d3b314e08ee341f5') in 0.092972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_TextFonts/berylium/Berylium Rg SDF.asset
+  artifactKey: Guid(a2452fa06f302b44a86a8dfb81af19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TextFonts/berylium/Berylium Rg SDF.asset using Guid(a2452fa06f302b44a86a8dfb81af19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2c70c16dd97cf404fabf920d983c3e94') in 0.025427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_TextFonts/berylium/Berylium Bd SDF.asset
+  artifactKey: Guid(a9447cb284dcd644da6acb1b0e25534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TextFonts/berylium/Berylium Bd SDF.asset using Guid(a9447cb284dcd644da6acb1b0e25534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62c669df503a23dd5bb014abda9a2d99') in 0.030301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_TextFonts/berylium/Berylium Rg It SDF.asset
+  artifactKey: Guid(b134b82a2394374419cbbe3d5cfd758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TextFonts/berylium/Berylium Rg It SDF.asset using Guid(b134b82a2394374419cbbe3d5cfd758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b40feb1b92ae5c794274a46294ea8640') in 0.022948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

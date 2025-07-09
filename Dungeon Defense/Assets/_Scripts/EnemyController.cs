@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     protected float movementSpeed;
     protected int defeatReward;
     bool chestInRange;
+    bool tryAttacks = false;
 
     public GUIController guiController;
     public WaveController waveController;
@@ -18,8 +19,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        StartCoroutine(EnemyAttack());
+        //StartCoroutine(EnemyAttack());
     }
 
     
@@ -32,19 +32,29 @@ public class EnemyController : MonoBehaviour
             waveController = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveController>();
             guiController = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GUIController>();
         }
+
+        if(!tryAttacks)
+        {
+            tryAttacks = true;
+            StartCoroutine(EnemyAttack());
+            
+        }
     }
 
-    IEnumerator EnemyAttack()
+     IEnumerator EnemyAttack()
     {
-        while (true)
+        while(tryAttacks)
         {
             if (chestInRange)
             {
+                Debug.Log("EnemyAttack has been attempted");
                 guiController.DamageDefenderHealth(damage);
                 yield return new WaitForSeconds(attackCooldown);
             }
-            
-        }  
+
+        yield return null;
+        }
+               
     }
 
     private void OnDestroy()
@@ -53,10 +63,12 @@ public class EnemyController : MonoBehaviour
         guiController.AddMoney(defeatReward);
     }
 
+    
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "TargetChest")
         {
+            Debug.Log("Chest is within an enemys range");
             chestInRange = true;
         }
     }

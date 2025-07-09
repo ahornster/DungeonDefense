@@ -11,6 +11,8 @@ public class EnemyType3 : EnemyController
         health = 200;
         movementSpeed = 1;
         defeatReward = 30;
+
+        //StartCoroutine(EnemyAttack()); //Seems to freeze unit when activated
     }
 
 }

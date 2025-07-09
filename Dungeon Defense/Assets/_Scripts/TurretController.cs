@@ -89,7 +89,7 @@ public class TurretController : MonoBehaviour
         isActiveTurret = true;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player" && !isActiveTurret)
         {
@@ -118,5 +118,27 @@ public class TurretController : MonoBehaviour
         }
     }
 
+    //private void OnCollisionStay(Collision other)
+    //{
+    //    if (other.gameObject.tag == "Player" && !isActiveTurret)
+    //    {
+    //        guiController.DisplayDirectionalPrompt("Press [E] to create Turret. (Costs 100 Coins).");
 
+    //        isNearTurret = true;
+    //    }
+
+     
+    //}
+
+    //private void OnCollisionExit(Collision other)
+    //{
+    //    if (other.gameObject.tag == "Player" && !isActiveTurret)
+    //    {
+    //        guiController.HideDirectionalPrompt();
+
+    //        isNearTurret = false;
+    //    }
+
+      
+    //}
 }
