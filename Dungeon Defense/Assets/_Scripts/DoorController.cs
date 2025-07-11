@@ -8,6 +8,8 @@ public class DoorController : MonoBehaviour
     [Range(0f,3f)]
     int openDirection; // 0 top, 1 right, 2 bottom, 3 left.
 
+    public int roomCost = 50;
+
     bool isNearDoor;
 
     public RoomController roomController;
@@ -28,8 +30,9 @@ public class DoorController : MonoBehaviour
 
     private void Update()
     {
-        if (isNearDoor && Input.GetKeyDown(KeyCode.E))
+        if (isNearDoor && Input.GetKeyDown(KeyCode.E) && roomCost <= guiController.moneyCount)
         {
+            guiController.SubtractMoney(roomCost);
             guiController.HideDirectionalPrompt();
             Destroy(this.gameObject);
             //OpenDoor();
@@ -50,7 +53,7 @@ public class DoorController : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && !roomController.doorChosen)
         {
-            guiController.DisplayDirectionalPrompt("Press [E] to open next room. (Costs 100 Coins).");
+            guiController.DisplayDirectionalPrompt("Press [E] to open next room. (Costs " +roomCost+ " Coins).");
 
             isNearDoor = true;
         }

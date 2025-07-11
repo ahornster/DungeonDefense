@@ -12,10 +12,9 @@ public class WaveController : MonoBehaviour
     public float secondsBetweenWaves = 30f;
 
     public int currentWaveCount = 1;
-    private int totalEnemyCount;
+    public int totalEnemyCount;
     public int currentEnemyCount;
-    private int waveEnemyTotal;
-
+    public int waveEnemyTotal;
 
     
     // Start is called before the first frame update
@@ -50,6 +49,7 @@ public class WaveController : MonoBehaviour
                // Debug.Log("WaveEnemyTotal: " + waveEnemyTotal + " totalEnemyCount: " + totalEnemyCount);
                 
                 yield return new WaitForSeconds(randomWait);
+
             }
 
             if (totalEnemyCount >= waveEnemyTotal)
@@ -60,6 +60,7 @@ public class WaveController : MonoBehaviour
                 currentWaveCount++;
                 waveEnemyTotal = baseEnemyPerWave + (currentWaveCount * difficultyLevel);
                 //Debug.Log("Delay over. CurrentWaveCount: " + currentWaveCount + "  New enemyWaveTotal: " + waveEnemyTotal);
+                
             }
         }
         

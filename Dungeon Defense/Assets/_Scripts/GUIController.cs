@@ -11,6 +11,7 @@ public class GUIController : MonoBehaviour
     public int waveCount = 1;
     public int waveTotal = 10;
 
+    public GameObject defenderChest;
     public GameObject defenderHealthUI;
     public TextMeshProUGUI defenderHealthText;
     public float currentDefenderHealth = 100;
@@ -24,6 +25,11 @@ public class GUIController : MonoBehaviour
     public TextMeshProUGUI directionalPromptText;
 
     public WaveController waveController;
+    public SceneController sceneController;
+
+    public float endGameDelay = 5;
+    private float endCountDown;
+    public bool endTimerStarted = false;
 
     private void Awake()
     {
@@ -40,7 +46,11 @@ public class GUIController : MonoBehaviour
         
     }
     // Start is called before the first frame update
-    void Start() { }
+    void Start() 
+    {
+        sceneController = GameObject.FindWithTag("SceneManager").GetComponent<SceneController>();
+
+    }
     
 
     // Update is called once per frame
@@ -48,6 +58,48 @@ public class GUIController : MonoBehaviour
     {
         waveCount = waveController.currentWaveCount;
         waveTotal = waveController.totalWaveCount;
+
+
+        if (currentDefenderHealth <= 0)
+        {
+            currentDefenderHealth = 0;
+
+            if(defenderChest != null)
+            {
+                Destroy(defenderChest);
+            }
+            
+
+            if (!endTimerStarted)
+            {
+                endCountDown = Time.time;
+                endTimerStarted = true;
+            }
+
+            DisplayDirectionalPrompt("Your chest has been broken and treasures stolen, game will end in: " + (endGameDelay - (Time.time - endCountDown)).ToString("0.00"));
+
+            if (endTimerStarted && (endGameDelay - (Time.time - endCountDown)) <= 0)
+            {
+                sceneController.LoadLose();
+            }
+        }
+
+        if (waveController.currentWaveCount == waveController.totalWaveCount && waveController.currentEnemyCount == 0)
+        {
+            if (!endTimerStarted)
+            {
+                endCountDown = Time.time;
+                endTimerStarted = true;
+            }
+
+            DisplayDirectionalPrompt("All waves defeated, game will end in: " + (endGameDelay - (Time.time - endCountDown)).ToString("0.00"));
+
+            if (endTimerStarted && (endGameDelay - (Time.time - endCountDown)) <= 0)
+            {
+                sceneController.LoadWin();
+            }
+        }
+
 
         UpdateUI();
     }
@@ -91,5 +143,4 @@ public class GUIController : MonoBehaviour
     {
         directionalPromptUI.SetActive(false);
     }
-
 }

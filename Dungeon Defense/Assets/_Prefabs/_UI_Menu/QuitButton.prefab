@@ -257,7 +257,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7015577115656690070, guid: 77f6a542c1fb70c4fa78cf9eb19c3f93, type: 3}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: LoadCredits
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

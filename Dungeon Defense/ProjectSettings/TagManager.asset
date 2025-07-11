@@ -11,6 +11,7 @@ TagManager:
   - TargetChest
   - Floor
   - GameManager
+  - SceneManager
   layers:
   - Default
   - TransparentFX

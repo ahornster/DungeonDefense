@@ -57,6 +57,9 @@ MonoBehaviour:
   baseEnemyPerWave: 1
   secondsBetweenWaves: 30
   currentWaveCount: 1
+  totalEnemyCount: 0
+  currentEnemyCount: 0
+  waveEnemyTotal: 0
 --- !u!114 &6117098860430202837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,10 +94,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveUI: {fileID: 0}
   waveText: {fileID: 0}
+  waveCount: 1
+  waveTotal: 10
   defenderHealthUI: {fileID: 0}
   defenderHealthText: {fileID: 0}
+  currentDefenderHealth: 100
+  totalDefenderHealth: 100
   moneyUI: {fileID: 0}
   moneyText: {fileID: 0}
+  moneyCount: 0
   directionalPromptUI: {fileID: 0}
   directionalPromptText: {fileID: 0}
   waveController: {fileID: 0}
+  sceneController: {fileID: 7015577115656690070, guid: 77f6a542c1fb70c4fa78cf9eb19c3f93, type: 3}
+  endGameDelay: 5
+  endTimerStarted: 0

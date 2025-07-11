@@ -30,7 +30,7 @@ public class SceneController : MonoBehaviour
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene("CreditScene");
+        SceneManager.LoadScene("CreditsScene");
     }
 
     public void LoadOptions()
@@ -40,7 +40,7 @@ public class SceneController : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("GameplayScene");
+        SceneManager.LoadScene("GameScene");
     }
 
     public void LoadHowToPlay()

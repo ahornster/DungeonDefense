@@ -16,17 +16,24 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 6f;
     public float turnSmoothTime = 0.1f;
 
+    public float StartHeight;
+
     float turnSmoothVelocity;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartHeight = transform.position.y; 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y > StartHeight)
+        {
+            transform.position = new Vector3(transform.position.x, StartHeight, transform.position.z);
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
