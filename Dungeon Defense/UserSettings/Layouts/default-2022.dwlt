@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1397
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 100
+  controlID: 123
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 42
+  controlID: 52
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 136
+  controlID: 148
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 135
+  controlID: 50
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -252,8 +252,8 @@ MonoBehaviour:
     y: 0
     width: 753
     height: 594
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 51
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Prefabs/_Turret
+    - Assets/_Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -543,16 +543,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Prefabs/_Turret
+  - Assets/_Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Austin\Documents\GitHub\DungeonDefense\Dungeon Defense
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2660000
-    m_LastClickedID: 26338
-    m_ExpandedIDs: 000000008e66000090660000926600009466000096660000986600009a6600009c6600009e660000a0660000a2660000a4660000a6660000a8660000aa66000000ca9a3b
+    m_SelectedIDs: 069d0000
+    m_LastClickedID: 40198
+    m_ExpandedIDs: 00000000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000109d0000129d0000149d0000169d0000189d00001a9d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +580,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e66000090660000926600009466000096660000986600009a6600009c6600009e660000a0660000a2660000a4660000a6660000a8660000aa660000
+    m_ExpandedIDs: 00000000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000109d0000129d0000149d0000169d0000189d00001a9d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,7 +677,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 357
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -720,9 +720,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 346f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2ca2fbff4ca2fbff6ca2fbff60f6fbfff451fcffc477fcff0a78fcff1678fcff5c78fcff6878fcffae78fcffba78fcff0079fcff0479fcff1279fcff2079fcff2e79fcff3c79fcff4a79fcff5879fcff6679fcff7479fcff8279fcff9079fcff9e79fcffac79fcffba79fcffc879fcffd679fcffe479fcfff279fcff007afcff0e7afcff1c7afcff2a7afcff387afcff467afcff547afcff627afcff707afcff7e7afcff8c7afcff9a7afcffa87afcffb67afcffc47afcffd27afcffe07afcffee7afcfffc7afcff007bfcff0e7bfcff1c7bfcff2a7bfcff387bfcff467bfcff547bfcff627bfcff707bfcff7e7bfcff8c7bfcff9a7bfcffa87bfcffb67bfcffba7bfcffbe7bfcffcc7bfcffda7bfcfffa7bfcff087cfcff167cfcff247cfcff327cfcff467cfcff4e7cfcff547cfcff587cfcff667cfcff747cfcff827cfcff907cfcffb27cfcffb67cfcffc47cfcffd27cfcffee7cfcff027dfcff0a7dfcff107dfcff147dfcff607dfcff687dfcff6e7dfcff727dfcff767dfcff7c7dfcfff8c8fefffec8feff02c9feffc2c9feffc8c9fefffef3ffffbef5fffffaf5ffff4ef6ffffb4f6ffffb8f6ffff6af8ffffe0f8ffffe2f8fffffefaffff286700003a6700004067000052670000
+      m_ExpandedIDs: 3c2effff982effffcc31ffff0232ffff0833ffff3034ffff4c35ffff6a36ffff1a3dffff423effff7e3effff0a44ffffe244ffffd645ffff1c51ffff2451ffff2c51fffff051ffff7257ffffca57ffff1e5bffff585bffff625cffff8e5dffffb05effffd45fffff8a66ffffb667fffff867ffff5872ffff967cffff1c99ffff7499ffff989cffffd29cffffac9dffffa89effff9a9fffff8ea0ffff44a7ffff40a8ffff80a8ffffd0c4ffffdac5ffff5ac7ffff5cc7ffff80c8fffffac8ffffdccbffffe4cbfffff6cbffff88cfffffaacfffffd2d0ffffdad0ffff5ad1ffff5cd5ffff7cd5ffff8ad5ffff1ed6ffffeedeffff4cdfffff3ce2ffff72e2ffff18e3fffffee3ffffbce4ffff7ae5ffff2aecfffff2ecffff30edfffffefaffff42ac000002b000000cb00000f8bc000008bd000048c20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1141,9 +1141,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1.0833333, z: 4.6019645}
+    m_Target: {x: 960, y: 540, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 1.0833333, z: 4.6019645}
+    m_Value: {x: 960, y: 540, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1189,13 +1189,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.007477152, y: 0.9645698, z: -0.26228535, w: -0.02749769}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.0074771503, y: 0.96456957, z: -0.2622853, w: -0.027497683}
+    m_Value: {x: 0, y: 0, z: 0, w: 0.99999994}
   m_Size:
-    m_Target: 2.2516658
+    m_Target: 1101.4536
     speed: 2
-    m_Value: 2.2516658
+    m_Value: 1101.4536
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1315,7 +1315,7 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1332, y: 607}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &23

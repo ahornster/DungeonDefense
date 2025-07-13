@@ -612,7 +612,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.84
+    m_Strength: 0.9
     m_Bias: 0.3
     m_NormalBias: 0
     m_NearPlane: 0.1
@@ -1917,7 +1917,7 @@ PrefabInstance:
       objectReference: {fileID: 1456676616}
     - target: {fileID: 8197999032136859959, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
       propertyPath: moneyCount
-      value: 100000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8197999032136859959, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
       propertyPath: enemyCountUI
