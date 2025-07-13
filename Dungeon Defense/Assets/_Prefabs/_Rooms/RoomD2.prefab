@@ -107,6 +107,8 @@ MonoBehaviour:
   doorChosen: 0
   newRoomOpenedDoorID: 0
   newRoomOpenedDoor: {fileID: 0}
+  defenderChest: {fileID: 0}
+  chestController: {fileID: 0}
 --- !u!1 &1232575359080664862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,6 +1128,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5851075055589123748, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
+      propertyPath: roomController
+      value: 
+      objectReference: {fileID: 8351104313201280386}
     - target: {fileID: 7120184157894114540, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
       propertyPath: m_Name
       value: LongWall_Door (1)
@@ -3429,6 +3435,10 @@ PrefabInstance:
       propertyPath: openDirection
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5851075055589123748, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
+      propertyPath: roomController
+      value: 
+      objectReference: {fileID: 8351104313201280386}
     - target: {fileID: 7120184157894114540, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
       propertyPath: m_Name
       value: LongWall_Door (3)
@@ -3562,6 +3572,10 @@ PrefabInstance:
       propertyPath: openDirection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5851075055589123748, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
+      propertyPath: roomController
+      value: 
+      objectReference: {fileID: 8351104313201280386}
     - target: {fileID: 7120184157894114540, guid: 6b9b09cda3583024a854c15120718ce6, type: 3}
       propertyPath: m_Name
       value: LongWall_Door (2)

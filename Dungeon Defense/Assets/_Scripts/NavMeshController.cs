@@ -12,7 +12,7 @@ public class NavMeshController : MonoBehaviour
     void Start()
     {
         surface = GetComponent<NavMeshSurface>();
-        Debug.Log(surface);
+        //Debug.Log(surface);
     }
 
     // Update is called once per frame

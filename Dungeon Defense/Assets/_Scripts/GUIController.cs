@@ -11,9 +11,14 @@ public class GUIController : MonoBehaviour
     public int waveCount = 1;
     public int waveTotal = 10;
 
+    public GameObject enemyCountUI;
+    public TextMeshProUGUI enemyCountText;
+    public int enemyCount;
+
     public GameObject defenderChest;
     public GameObject defenderHealthUI;
     public TextMeshProUGUI defenderHealthText;
+    public Slider healthSlider;
     public float currentDefenderHealth = 100;
     public float totalDefenderHealth = 100;
 
@@ -38,8 +43,9 @@ public class GUIController : MonoBehaviour
             defenderHealthText = defenderHealthUI.GetComponentInChildren<TextMeshProUGUI>();
             moneyText = moneyUI.GetComponentInChildren<TextMeshProUGUI>();
             directionalPromptText = directionalPromptUI.GetComponentInChildren<TextMeshProUGUI>();
+            enemyCountText = enemyCountUI.GetComponentInChildren<TextMeshProUGUI>();
 
-            if (waveController == null && this.GetComponent<WaveController>() != null)
+        if (waveController == null && this.GetComponent<WaveController>() != null)
             {
                 waveController = this.GetComponent<WaveController>();
             }
@@ -50,6 +56,10 @@ public class GUIController : MonoBehaviour
     {
         sceneController = GameObject.FindWithTag("SceneManager").GetComponent<SceneController>();
 
+        currentDefenderHealth = totalDefenderHealth;
+        healthSlider.maxValue = totalDefenderHealth;
+        healthSlider.value = currentDefenderHealth;
+
     }
     
 
@@ -58,7 +68,7 @@ public class GUIController : MonoBehaviour
     {
         waveCount = waveController.currentWaveCount;
         waveTotal = waveController.totalWaveCount;
-
+        enemyCount = waveController.currentEnemyCount;
 
         if (currentDefenderHealth <= 0)
         {
@@ -111,6 +121,10 @@ public class GUIController : MonoBehaviour
         defenderHealthText.text = currentDefenderHealth + " / " + totalDefenderHealth;
 
         moneyText.text = moneyCount.ToString();
+
+        enemyCountText.text = "Enemies Remaining: " +enemyCount;
+
+        healthSlider.value = currentDefenderHealth;
     }
 
     public void UpdateWaveCount()

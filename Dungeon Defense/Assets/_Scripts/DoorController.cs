@@ -35,7 +35,7 @@ public class DoorController : MonoBehaviour
             guiController.SubtractMoney(roomCost);
             guiController.HideDirectionalPrompt();
             Destroy(this.gameObject);
-            //OpenDoor();
+            OpenDoor();
             
         }
     }
@@ -71,6 +71,6 @@ public class DoorController : MonoBehaviour
 
     private void OnDestroy()
     {
-        OpenDoor();
+        //OpenDoor();
     }
 }

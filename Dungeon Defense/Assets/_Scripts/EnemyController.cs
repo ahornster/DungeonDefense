@@ -19,6 +19,11 @@ public class EnemyController : MonoBehaviour
     [SerializeField]
     bool tryAttacks = false;
 
+    public float flashDuration = 0.2f;
+    [SerializeField]
+    private Renderer rend;
+    private Color originalColor;
+
     public GUIController guiController;
     public WaveController waveController;
     public EnemyMovementController enemyMovementController;
@@ -27,8 +32,9 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //enemyMovementController = gameObject.GetComponent<EnemyMovementController>();
         
+        //enemyMovementController = gameObject.GetComponent<EnemyMovementController>();
+
         //StartCoroutine(EnemyAttack());
     }
 
@@ -43,6 +49,8 @@ public class EnemyController : MonoBehaviour
         {
             waveController = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveController>();
             guiController = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GUIController>();
+            rend = GetComponentInChildren<Renderer>();
+            originalColor = rend.material.color;
             //enemyMovementController = gameObject.GetComponent<EnemyMovementController>();
         }
 
@@ -76,9 +84,19 @@ public class EnemyController : MonoBehaviour
                
     }
 
+    IEnumerator FlashRed()
+    {
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(flashDuration);
+        rend.material.color = originalColor;
+        yield return null;
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
+        StartCoroutine(FlashRed());
+        StopCoroutine(FlashRed());
     }
 
     private void OnDestroy()

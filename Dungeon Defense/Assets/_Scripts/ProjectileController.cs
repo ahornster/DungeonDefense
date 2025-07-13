@@ -8,17 +8,19 @@ public class ProjectileController : MonoBehaviour
     private int damage;
     private float moveSpeed;
 
+    public float heightModifier;
+
     public GameObject hitSpawnPrefab;
 
     private void Update()
     {
         if(target != null)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.transform.position.x, target.transform.position.y + heightModifier, target.transform.position.z), moveSpeed * Time.deltaTime);
             
             transform.LookAt(transform.position);
 
-            if(Vector3.Distance(transform.position, target.transform.position) < 0.2f)
+            if(Vector3.Distance(transform.position, target.transform.position) < (0.2f + heightModifier))
             {
                 (target).TakeDamage(damage);
 
