@@ -472,7 +472,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 798595982595499835, guid: 375e0eccfaf0c8d47872168fb5405068, type: 3}
   projectileSpawnPos: {fileID: 2687774810917535147}
   projectileDamage: 10
-  projectileSpeed: 3
+  projectileSpeed: 10
 --- !u!135 &7505429447846175276
 SphereCollider:
   m_ObjectHideFlags: 0

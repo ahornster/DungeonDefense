@@ -15,6 +15,8 @@ public class GUIController : MonoBehaviour
     public TextMeshProUGUI enemyCountText;
     public int enemyCount;
 
+    private Renderer rend;
+    private Color originalColor;
     public GameObject defenderChest;
     public GameObject defenderHealthUI;
     public TextMeshProUGUI defenderHealthText;
@@ -35,6 +37,7 @@ public class GUIController : MonoBehaviour
     public float endGameDelay = 5;
     private float endCountDown;
     public bool endTimerStarted = false;
+
 
     private void Awake()
     {
@@ -60,12 +63,20 @@ public class GUIController : MonoBehaviour
         healthSlider.maxValue = totalDefenderHealth;
         healthSlider.value = currentDefenderHealth;
 
+
+        
     }
     
 
     // Update is called once per frame
     void Update()
     {
+        if (rend == null)
+        {
+            rend = defenderChest.GetComponentInChildren<Renderer>();
+            originalColor = rend.material.color;
+        }
+
         waveCount = waveController.currentWaveCount;
         waveTotal = waveController.totalWaveCount;
         enemyCount = waveController.currentEnemyCount;
@@ -116,7 +127,7 @@ public class GUIController : MonoBehaviour
 
     void UpdateUI()
     {
-        waveText.text = waveCount + " / " + waveTotal;
+        waveText.text = "Current Wave: "+ waveCount + " / " + waveTotal;
 
         defenderHealthText.text = currentDefenderHealth + " / " + totalDefenderHealth;
 
@@ -145,6 +156,7 @@ public class GUIController : MonoBehaviour
     public void DamageDefenderHealth(int damage)
     {
         currentDefenderHealth -= damage;
+        StartCoroutine(FlashRed());
     }
 
     public void DisplayDirectionalPrompt(string promptContents)
@@ -156,5 +168,14 @@ public class GUIController : MonoBehaviour
     public void HideDirectionalPrompt()
     {
         directionalPromptUI.SetActive(false);
+    }
+
+    //--------------------
+    IEnumerator FlashRed()
+    {
+        rend.material.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        rend.material.color = originalColor;
+        yield return null;
     }
 }

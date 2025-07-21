@@ -96,7 +96,7 @@ public class EnemyController : MonoBehaviour
     {
         health -= damage;
         StartCoroutine(FlashRed());
-        StopCoroutine(FlashRed());
+        //StopCoroutine(FlashRed());
     }
 
     private void OnDestroy()

@@ -133,42 +133,69 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadCredits
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadGame
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadOptions
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadHowToPlay
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
-    methodName: LoadMenu
+    methodName: LoadCredits
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: LoadOptions
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: LoadGame
   sceneClasses:
     Assets/_Scenes/CreditsScene.unity:
     - Class: 1
@@ -2339,4 +2366,4 @@ ScriptsOnlyBuild:
   - Assets/_Scenes/OptionsScene.unity
   - Assets/_Scenes/StudioScene.unity
   - Assets/_Scenes/WinScene.unity
-  playerPath: E:/CSCI497_CAPSTONE/DungeonDefenseExeFinal/Dungeon Defense.exe
+  playerPath: E:/CSCI497_CAPSTONE/DungeonDefenseExeFinal2/Dungeon Defense.exe

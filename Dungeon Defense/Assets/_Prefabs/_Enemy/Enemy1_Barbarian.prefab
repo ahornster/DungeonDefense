@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
+  movementSpeed: 2
 --- !u!114 &-1761444371289558297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,8 +63,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57f0aca3db473ae47b11da588dfdf691, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
+  attackCooldown: 0
+  health: 0
+  movementSpeed: 0
+  defeatReward: 0
+  chestInRange: 0
+  tryAttacks: 0
+  flashDuration: 0.2
+  rend: {fileID: 0}
   guiController: {fileID: 0}
   waveController: {fileID: 0}
+  enemyMovementController: {fileID: 0}
 --- !u!195 &-8270404720054750947
 NavMeshAgent:
   m_ObjectHideFlags: 0

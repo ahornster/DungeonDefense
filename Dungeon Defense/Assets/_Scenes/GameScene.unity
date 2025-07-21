@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119197
@@ -319,6 +319,10 @@ PrefabInstance:
     - target: {fileID: 8265584809032681975, guid: 245a775c21c634d4c9a2c9aada22852c, type: 3}
       propertyPath: m_Constraints
       value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290312948428307314, guid: 245a775c21c634d4c9a2c9aada22852c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8265584809032681975, guid: 245a775c21c634d4c9a2c9aada22852c, type: 3}
@@ -802,7 +806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -250, y: -50}
+  m_AnchoredPosition: {x: -250, y: -125}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1010822086
@@ -1323,7 +1327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4097538935964698209, guid: f8c7653b96910d046a4747b7ed87bcf2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -250
+      value: -325
       objectReference: {fileID: 0}
     - target: {fileID: 4097538935964698209, guid: f8c7653b96910d046a4747b7ed87bcf2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1354,8 +1358,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9018835727633889496, guid: f8c7653b96910d046a4747b7ed87bcf2, type: 3}
+      propertyPath: m_text
+      value: 'Current Wave: 1/15'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018835727633889496, guid: f8c7653b96910d046a4747b7ed87bcf2, type: 3}
       propertyPath: m_fontSize
-      value: 41.65
+      value: 27.8
       objectReference: {fileID: 0}
     - target: {fileID: 9018835727633889496, guid: f8c7653b96910d046a4747b7ed87bcf2, type: 3}
       propertyPath: m_fontAsset
@@ -1755,6 +1763,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2733420633511511911, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
+      propertyPath: totalWaveCount
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2733420633511511911, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
       propertyPath: enemySpawnPoint
       value: 

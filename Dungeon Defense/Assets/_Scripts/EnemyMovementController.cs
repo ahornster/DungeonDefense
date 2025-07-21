@@ -23,7 +23,7 @@ public class EnemyMovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //agent.speed = movementSpeed;
+        agent.speed = movementSpeed;
         target = targetChest.transform;
         agent.SetDestination(target.position);
         
