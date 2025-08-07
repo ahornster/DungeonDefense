@@ -38,6 +38,9 @@ public class GUIController : MonoBehaviour
     private float endCountDown;
     public bool endTimerStarted = false;
 
+    public GameObject pauseMenuBundle;
+    public bool showPauseMenu;
+
 
     private void Awake()
     {
@@ -168,6 +171,16 @@ public class GUIController : MonoBehaviour
     public void HideDirectionalPrompt()
     {
         directionalPromptUI.SetActive(false);
+    }
+
+    public void DisplayPauseMenu()
+    {
+        pauseMenuBundle.SetActive(true);
+    }
+
+    public void HidePauseMenu()
+    {
+        pauseMenuBundle.SetActive(false);
     }
 
     //--------------------

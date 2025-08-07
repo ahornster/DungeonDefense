@@ -28,7 +28,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -162,16 +161,19 @@ ScriptsOnlyBuild:
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
-    methodName: LoadMenu
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
-    methodName: LoadHowToPlay
+    methodName: LoadGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadCredits
@@ -180,19 +182,16 @@ ScriptsOnlyBuild:
     methodName: LoadOptions
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
-    methodName: QuitGame
+    methodName: LoadHowToPlay
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
-    methodName: LoadGame
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: LoadGame
@@ -2366,4 +2365,5 @@ ScriptsOnlyBuild:
   - Assets/_Scenes/OptionsScene.unity
   - Assets/_Scenes/StudioScene.unity
   - Assets/_Scenes/WinScene.unity
-  playerPath: E:/CSCI497_CAPSTONE/DungeonDefenseExeFinal2/Dungeon Defense.exe
+  playerPath: C:/Users/Austin/Documents/LeafBladeGames/DungeonDefense/DungeonDefense_Windows/Dungeon
+    Defense.exe
