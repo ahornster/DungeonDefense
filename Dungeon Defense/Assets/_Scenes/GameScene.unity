@@ -1877,7 +1877,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2733420633511511911, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
       propertyPath: totalWaveCount
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2733420633511511911, guid: ecd8435b3cd437f44ae15f8a50151d1f, type: 3}
       propertyPath: enemySpawnPoint

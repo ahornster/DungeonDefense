@@ -16,12 +16,13 @@ public class WaveController : MonoBehaviour
     public int currentEnemyCount;
     public int waveEnemyTotal;
 
-    
+    public bool noMoreEnemies;
     // Start is called before the first frame update
     void Start()
     {
         waveEnemyTotal = baseEnemyPerWave + (currentWaveCount * difficultyLevel);
         StartCoroutine(SpawnWave());
+        noMoreEnemies = false;
     }
 
     // Update is called once per frame
@@ -32,9 +33,12 @@ public class WaveController : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        while(currentWaveCount < totalWaveCount)
+        while(currentWaveCount <= totalWaveCount)
         {
-            
+            if(currentWaveCount == 1)
+            {
+                yield return new WaitForSeconds(secondsBetweenWaves);
+            }
             
             for(int i = 0; i < waveEnemyTotal; i++)
             {
@@ -52,7 +56,14 @@ public class WaveController : MonoBehaviour
 
             }
 
-            if (totalEnemyCount >= waveEnemyTotal)
+            if (currentWaveCount >= totalWaveCount && totalEnemyCount >= waveEnemyTotal)
+            {
+                noMoreEnemies = true;
+                Debug.Log("No more enemies check: " + noMoreEnemies);
+                yield break;  
+            }
+
+            else if (totalEnemyCount >= waveEnemyTotal && currentWaveCount < totalWaveCount)
             {
                 //Debug.Log("Wave populated. wave spawn Delay");
                 yield return new WaitForSeconds(secondsBetweenWaves);
@@ -62,6 +73,8 @@ public class WaveController : MonoBehaviour
                 //Debug.Log("Delay over. CurrentWaveCount: " + currentWaveCount + "  New enemyWaveTotal: " + waveEnemyTotal);
                 
             }
+
+            
         }
         
     }

@@ -108,7 +108,7 @@ public class GUIController : MonoBehaviour
             }
         }
 
-        if (waveController.currentWaveCount == waveController.totalWaveCount && waveController.currentEnemyCount == 0)
+        if (waveController.noMoreEnemies == true && waveController.currentEnemyCount == 0)
         {
             if (!endTimerStarted)
             {

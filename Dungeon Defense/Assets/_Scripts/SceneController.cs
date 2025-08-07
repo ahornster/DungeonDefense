@@ -62,10 +62,14 @@ public class SceneController : MonoBehaviour
 
     public void LoadWin()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         SceneManager.LoadScene("WinScene");
     }
     public void LoadLose()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         SceneManager.LoadScene("LoseScene");
     }
 }
